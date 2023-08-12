@@ -13,7 +13,8 @@ This has been tested on Windows 10 only, and so may break for other operating sy
 
 ### Add Your OpenAI API Key
 In the .env file, add your OpenAI API key
-OPENAI_KEY=OPEN_AI_KEY_WITHOUT_QUOTES
+
+```OPENAI_KEY=OPEN_AI_KEY_WITHOUT_QUOTES```
 
 ## Run Your App
 ### Input
@@ -21,4 +22,5 @@ OPENAI_KEY=OPEN_AI_KEY_WITHOUT_QUOTES
 
 ### Expected Output
 RULE 1: KQ sign agreement
+
 RULE 2: ('KQ', 'sign', 'agreement')

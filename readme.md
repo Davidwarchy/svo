@@ -6,14 +6,21 @@ This has been tested on Windows 10 only, and so may break for other operating sy
 
 ## Install Requirements
 ### Install Packages
-pip install spacy, python-dotenv, openai, tenacity
+```pip install spacy, python-dotenv, openai, tenacity```
 
 ### Download Spacy Model 
-python -m spacy download en_core_web_sm
+```python -m spacy download en_core_web_sm```
 
 ### Add Your OpenAI API Key
 In the .env file, add your OpenAI API key
-OPENAI_KEY=OPEN_AI_KEY_WITHOUT_QUOTES
+
+```OPENAI_KEY=OPEN_AI_KEY_WITHOUT_QUOTES```
 
 ## Run Your App
-py .\app.py
+### Input
+```py .\app.py "KQ signs codeshare agreement with Delta - Capital Business"```
+
+### Expected Output
+RULE 1: KQ sign agreement
+
+RULE 2: ('KQ', 'sign', 'agreement')
